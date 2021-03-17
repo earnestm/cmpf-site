@@ -1,0 +1,133 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@charset "UTF-8"; 
+
+// Add the TT Norms Font //
+
+@font-face{
+	font-family:'TTNorms-Bold',  "Helvetica Neue", "Arial", sans-serif ; src:url(../themes/rscas/assets/fonts/TTNorms/TTNorms-Bold.otf);font-weight:700;font-display:swap }
+@font-face{
+	font-family:"TTNorm-Regular", "Helvetica Neue", "Arial", sans-serif ;src:url(../themes/rscas/assets/fonts/TTNorms/TTNorms-Regular.otf);font-weight:400;font-display:swap}
+
+/////////////////
+/// Variables ///
+/////////////////
+
+$bgcolor: #F5F6F6;
+
+
+
+
+////////////////////////
+/// Add font styling ///
+////////////////////////
+
+h1 h2 h3 h4 {
+	font-family: 'TTNorms-Bold', "Helvetica Neue", "Arial", sans-serif;
+	color: $txtcolor;
+	}
+
+p {
+	font-family:'TTNorms-Regular', "Helvetica Neue", "Arial", sans-serif;
+	color: $txtcolor;
+	}
+	body {
+	color: #212B36;
+	font-family: "TTNorm-Regular", "Helvetica Neue", "Arial", sans-serif, serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.8;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: no-common-ligatures;
+	}
+/// Banner image ///
+
+.home-banner{
+	height: 500px;
+	background: linear-gradient(#999, #333);
+	
+	}
+
+// Promo text ///
+
+#promo-box {
+	padding: 54px ;
+	align: center;
+	background-color: $bgcolor ;
+	text-align: center;
+	line-height: 1.8;
+	}
+
+#promo-box	.container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+.promo-header{
+	text-transform: uppercase;
+	font-size: 32px;
+	
+	}
+
+/// Latest News ///
+
+.container .latest-posts{
+	max-width: 1140px;
+
+	}
+
+.container .box-title h4 {
+	margin-top: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	position: relative;
+	color: #f7b718;
+	
+	
+	}
+.container .box-title h4:after{
+	content: "";
+    display: block;
+	width: 900px;
+    height: 2px;
+    position: absolute;
+	right: 0;
+	top: 50%;
+	margin-right: 20px;
+	background: #f7b718;
+	z-index: -2;
+    
+	}
+    
+	
+
+.latest-posts{
+	margin-top: 60px;
+	padding: 60px 0px; 
+	}
+
+/// Nav bar ///
+
+.top-header-holder{
+
+	height: 260px; 
+	background: #ccc
+
+	}
+#main-nav{
+	border-top: 1px solid rgba (#5DA0AA, 0.5);
+	ul{
+		li{
+			a{
+				font-weight:500;
+				font-size: 18px;
+				text-transform:uppercase;
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,35 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@charset "UTF-8";
+@font-face{ 
+	font-family:'TTNorm-Bold';src:url(../../../../../../themes/rscas/assets/fonts/TTNorms/TTNorms-Bold.otf);font-weight:700; font-display:swap }
+	@font-face{font-family:'TTNorm-Regular';src:url(../../../../../../themes/rscas/assets/fonts/TTNorms/TTNorms-Regular.otf); font-weight:400; font-display:swap}
+
+
+.home-banner{
+	height: 500px;
+	background: linear-gradient(#999, #333);
+}
+
+#wrapper-navbar {
+}	
+.top-header-holder{
+
+	height: 260px; 
+	background: #ccc
+
+}
+#main-nav{
+	border-top: 1px solid rgba (#5DA0AA, 0.5);
+	ul{
+		li{
+			a{
+				font-weight:500;
+				font-size: 18px;
+				text-transform:uppercase;
+			}
+		}
+	}
+}
+
+

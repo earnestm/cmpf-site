@@ -1,0 +1,410 @@
+[08-Feb-2021 10:15:03 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:03 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:03 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:03 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:03 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:03 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:03 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:03 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:03 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:03 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:03 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:03 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:03 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:03 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:03 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:03 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:03 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:03 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:03 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:03 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:03 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:03 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:03 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:03 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:03 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:03 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:03 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:03 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:03 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:03 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:03 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:03 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:03 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:03 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:03 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:03 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:03 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:03 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:03 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:03 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:04 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:04 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:04 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:04 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:04 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:04 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:04 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:04 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:04 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:04 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:04 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:04 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:04 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:05 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:05 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:05 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:05 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:05 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:05 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:05 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:05 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:05 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:05 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:05 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:05 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:05 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:05 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:05 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:05 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Provider\WP_User.php on line 19
+[08-Feb-2021 10:15:05 UTC] PHP Stack trace:
+[08-Feb-2021 10:15:05 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:0
+[08-Feb-2021 10:15:05 UTC] PHP   2. do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-admin\admin-ajax.php:184
+[08-Feb-2021 10:15:05 UTC] PHP   3. WP_Hook->do_action() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php:484
+[08-Feb-2021 10:15:05 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:311
+[08-Feb-2021 10:15:05 UTC] PHP   5. FakerPress\Ajax::module_generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php:287
+[08-Feb-2021 10:15:05 UTC] PHP   6. FakerPress\Module\User->parse_request() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Ajax.php:76
+[08-Feb-2021 10:15:05 UTC] PHP   7. FakerPress\Module\User->generate() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\User.php:164
+[08-Feb-2021 10:15:05 UTC] PHP   8. FakerPress\Module\User->apply() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:191
+[08-Feb-2021 10:15:05 UTC] PHP   9. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  10. Faker\Generator->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  11. Faker\Generator->__call() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\src\FakerPress\Module\Base.php:214
+[08-Feb-2021 10:15:05 UTC] PHP  12. Faker\Generator->format() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:285
+[08-Feb-2021 10:15:05 UTC] PHP  13. call_user_func_array:{C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228}() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 10:15:05 UTC] PHP  14. FakerPress\Provider\WP_User->user_pass() C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Generator.php:228
+[08-Feb-2021 13:00:35 UTC] PHP Parse error:  syntax error, unexpected 'us' (T_STRING) in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php on line 21
+[08-Feb-2021 13:58:32 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php on line 22
+[08-Feb-2021 18:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php:51
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php on line 51
+[08-Feb-2021 18:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php:51
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php on line 51
+[08-Feb-2021 18:28:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:31:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:35:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:37:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 18:41:34 UTC] PHP Warning:  require_once(C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php): failed to open stream: No such file or directory in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:34 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:34 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:34 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:34 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:34 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:34 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:34 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:41:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:34 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:34 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:34 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:34 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:34 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:34 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:34 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:41:43 UTC] PHP Warning:  require_once(C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php): failed to open stream: No such file or directory in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:43 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:43 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:43 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:43 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:43 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:43 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:43 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:41:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:43 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:43 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:43 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:43 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:43 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:43 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:43 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:41:45 UTC] PHP Warning:  require_once(C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php): failed to open stream: No such file or directory in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:45 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:45 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:45 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:45 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:45 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:45 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:45 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:41:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Luc\Local Sites\newtheme\app\public/wp-content/themes/picostrap/inc/hooks.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\functions.php on line 31
+[08-Feb-2021 18:41:45 UTC] PHP Stack trace:
+[08-Feb-2021 18:41:45 UTC] PHP   1. {main}() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:0
+[08-Feb-2021 18:41:45 UTC] PHP   2. require() C:\Users\Luc\Local Sites\newtheme\app\public\index.php:17
+[08-Feb-2021 18:41:45 UTC] PHP   3. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php:13
+[08-Feb-2021 18:41:45 UTC] PHP   4. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-load.php:37
+[08-Feb-2021 18:41:45 UTC] PHP   5. require_once() C:\Users\Luc\Local Sites\newtheme\app\public\wp-config.php:77
+[08-Feb-2021 18:41:45 UTC] PHP   6. include() C:\Users\Luc\Local Sites\newtheme\app\public\wp-settings.php:525
+[08-Feb-2021 18:42:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php on line 36
+[08-Feb-2021 18:42:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php on line 36
+[08-Feb-2021 18:42:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php on line 36
+[08-Feb-2021 18:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\empty.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\empty.php on line 36
+[08-Feb-2021 18:53:34 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\empty.php on line 29
+[08-Feb-2021 19:54:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[08-Feb-2021 20:18:30 UTC] PHP Parse error:  syntax error, unexpected '$args' (T_VARIABLE) in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\empty.php on line 19
+[05-Mar-2021 08:00:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:00:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:34:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:48:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 08:49:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:38:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[05-Mar-2021 15:46:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Tribe__PUE__Plugin_Info' not found in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\the-events-calendar\common\src\Tribe\PUE\Checker.php:1287
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\the-events-calendar\common\src\Tribe\PUE\Checker.php(1177): Tribe__PUE__Checker->request_info(Array)
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\the-events-calendar\common\src\Tribe\PUE\Checker.php(1328): Tribe__PUE__Checker->license_key_status(Array)
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\the-events-calendar\common\src\Tribe\PUE\Checker.php(1436): Tribe__PUE__Checker->request_update()
+#3 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\class-wp-hook.php(289): Tribe__PUE__Checker->check_for_updates(Object(stdClass))
+#4 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(stdClass), Array)
+#5 C:\Users\Luc\Local Sites\newtheme\app\public\wp-incl in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\plugins\the-events-calendar\common\src\Tribe\PUE\Checker.php on line 1287
+[06-Mar-2021 11:41:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[06-Mar-2021 12:51:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php:36
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\home.php on line 36
+[06-Mar-2021 12:52:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 12:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 12:58:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:15
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 15
+[06-Mar-2021 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 13:02:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 13:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 13:31:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\front-page.php on line 59
+[06-Mar-2021 13:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:45
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 45
+[06-Mar-2021 13:36:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php:39
+Stack trace:
+#0 C:\Users\Luc\Local Sites\newtheme\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luc\Local Sites\newtheme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luc\\Lo...')
+#2 C:\Users\Luc\Local Sites\newtheme\app\public\index.php(17): require('C:\\Users\\Luc\\Lo...')
+#3 {main}
+  thrown in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\picostrap\page-templates\posts-page.php on line 39
+[06-Mar-2021 15:17:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Luc\Local Sites\newtheme\app\public\wp-content\themes\understrap\page-templates\front-page.php on line 19
