@@ -1,6 +1,8 @@
 <?php
 /**
  * WordPress User Page
+ * 
+ * Remember to change the wp-admin extension for login 
  *
  * Handles authentication, registering, resetting passwords, forgot password,
  * and other user handling.
